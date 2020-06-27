@@ -1,0 +1,65 @@
+body {
+    font-size: 64px;
+    background-repeat: no-repeat;
+    background-size: 1400px 800px;
+
+}
+.container {
+    background-color: white;
+    width: 340px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-template-rows: 80px 80px;
+  grid-template-areas: 
+  "header header header header" 
+  "main main main main" 
+  "main main main main" 
+  "main main main main" 
+  "main main main main" 
+  "main main main main";
+  margin-top: 60px;
+}
+.Number {
+  grid-area: header;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  width: 340px;
+  margin-left: -10px;
+  font-size: 50px;
+  background-color: rgb(102, 187, 102);
+  color: white;
+  text-align: right;
+  outline: none;
+  border: black;
+}
+.btn {
+  background-color: rgb(241, 234, 234);
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  margin: 4px 2px;
+  border-radius: 0%;
+  outline: none;
+}
+.silver {
+  background-color: rgb(241, 234, 234);
+  color: black;
+  outline: none;
+}
+
+.orange {
+  background-color: rgb(241, 234, 234);
+  color: black;
+  outline: none;
+}
+button {
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.button:hover {
+    background-color: red;
+}
+
